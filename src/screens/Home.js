@@ -13,7 +13,7 @@ function Home() {
   axios.defaults.withCredentials= true  
   const handleSubmit = (e) =>{
       e.preventDefault();
-      axios.post("https://projectnew-ewgr.onrender.com/", { email, password })
+      axios.post("http://localhost:5000/", { email, password })
         .then(result => {
           console.log(result);
           if (result.data.success === true) {
