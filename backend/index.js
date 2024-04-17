@@ -10,7 +10,7 @@ const studentModel = require('./Schema/student');
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: ["https://projectnew-ewgr.onrender.com"],
+    origin: ["https://project-z5k8.onrender.com"],
     methods: ["GET", "POST"],
     credentials: true
 }));
